@@ -10,12 +10,112 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1452.0, 1041.0 ],
+		"rect" : [ 134.0, 85.0, 1452.0, 1025.0 ],
 		"default_fontsize" : 14.0,
 		"default_fontname" : "Hack Nerd Font Mono",
 		"gridsize" : [ 15.0, 15.0 ],
 		"subpatcher_template" : "CleanStart_PDT",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-12",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 783.0, 680.0, 150.0, 76.0 ],
+					"text" : "Tiempo pero con audio DSP y no con tiempo Max"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 30.0,
+					"id" : "obj-7",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 247.0, 589.0, 249.0, 76.0 ],
+					"presentation_linecount" : 3,
+					"text" : "Transport independiente"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 30.0,
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 242.0, 150.0, 118.0, 41.0 ],
+					"text" : "Metro"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 0,
+					"id" : "obj-5",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 168.0, 822.0, 198.0, 91.0 ],
+					"presentation_linecount" : 5,
+					"text" : "Transport con nombre para poder tener diferentes transports en un solo patch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 30.0,
+					"id" : "obj-4",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 778.0, 37.5, 183.0, 76.0 ],
+					"presentation_linecount" : 2,
+					"text" : "Transport global"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 0,
+					"id" : "obj-3",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 181.0, 325.0, 154.0, 91.0 ],
+					"presentation_linecount" : 6,
+					"text" : "Tiempo en figuras musicales, funciona con el transport global"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 0,
+					"id" : "obj-2",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 44.5, 325.0, 112.0, 58.0 ],
+					"text" : "Tiempo en milisegundos"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-160",
 					"maxclass" : "ezdac~",
@@ -193,7 +293,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 200.0, 369.0, 73.0, 73.0 ]
+					"patching_rect" : [ 200.0, 245.5, 73.0, 73.0 ]
 				}
 
 			}
@@ -205,7 +305,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 64.0, 369.0, 73.0, 73.0 ]
+					"patching_rect" : [ 64.0, 245.5, 73.0, 73.0 ]
 				}
 
 			}
@@ -289,7 +389,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 600.0, 315.0, 89.0, 25.0 ],
-					"presentation_linecount" : 2,
 					"text" : "252.6792"
 				}
 
@@ -452,7 +551,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 29.0, 572.0, 387.0, 387.0 ],
+					"patching_rect" : [ 29.0, 572.0, 496.0, 381.0 ],
 					"proportion" : 0.5
 				}
 
@@ -466,7 +565,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 465.0, 5.0, 702.0, 554.0 ],
+					"patching_rect" : [ 469.0, 5.0, 702.0, 554.0 ],
 					"proportion" : 0.5
 				}
 
